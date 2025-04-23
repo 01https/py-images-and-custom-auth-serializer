@@ -1,7 +1,5 @@
 from django.db import transaction
 from rest_framework import serializers
-from rest_framework.decorators import action, permission_classes
-from rest_framework.permissions import IsAdminUser
 
 from cinema.models import (
     Genre,
